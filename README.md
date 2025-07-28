@@ -4,7 +4,7 @@
 ### 1. Clone the repository
 
 ```sh
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/Stoic-123/simple-ddos-kh.git
 cd your-repo-name
 ```
 
