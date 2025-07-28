@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Response Time Chart</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <canvas id="responseChart" width="800" height="400"></canvas>
+    <script>
+      const ctx = document.getElementById("responseChart").getContext("2d");
+      new Chart(ctx, {
+        // Paste the JSON output from the script here, e.g.:
+        // {
+        //     "type": "line",
+        //     "data": {
+        //         "labels": ["0", "1", "2", ...],
+        //         "datasets": [{
+        //             "label": "Response Time (s)",
+        //             "data": [0.1, 0.2, 0.15, ...],
+        //             "borderColor": "#4CAF50",
+        //             "backgroundColor": "rgba(76, 175, 80, 0.2)",
+        //             "fill": true,
+        //             "tension": 0.4
+        //         }]
+        //     },
+        //     "options": {
+        //         "scales": {
+        //             "x": {"title": {"display": true, "text": "Request Number"}},
+        //             "y": {"title": {"display": true, "text": "Response Time (s)"}, "beginAtZero": true}
+        //         },
+        //         "plugins": {
+        //             "title": {"display": true, "text": "Response Time Distribution"}
+        //         }
+        //     }
+        // }
+      });
+    </script>
+  </body>
+</html>

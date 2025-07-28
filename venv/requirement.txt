@@ -1,0 +1,5 @@
+aiohttp
+aiohttp-socks
+certifi
+fake-useragent
+numpy

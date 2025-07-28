@@ -1,0 +1,9 @@
+{
+  "target_url": "https://www.bangkokpost.com/",
+  "max_rps": 50,
+  "duration": 60,
+  "proxies": ["socks5h://127.0.0.1:9150"],
+  "methods": ["GET", "POST"],
+  "headers": {"X-Test": "true"},
+  "payload": {"key": "value"}
+}
